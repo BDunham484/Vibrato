@@ -1,0 +1,251 @@
+/* NAVBAR */
+
+.navbar-brand {
+    /* font-family: 'New Rocker', cursive; */
+font-family: 'Monoton', cursive;
+/* font-family: 'Black Ops One', cursive;
+font-family: 'Allerta Stencil', sans-serif;
+font-family: 'Metal Mania', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Courgette', cursive; */
+word-spacing: 0.5em;
+
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(218, 59, 213, 0.9);
+}
+
+.navbar-custom-top {
+    background-color: #bff463;
+}
+
+.navbar-custom {
+    background: linear-gradient(#202020 30%, #20202000);
+    min-height: 65px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #bff463;
+    font-family: 'Faster One', cursive;
+}
+
+.navbar-custom .navbar-nav .nav-item.active .nav-link{
+    color: rgba(218, 59, 213, 0.9);
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: rgba(218, 59, 213, 0.9);
+}
+
+.fixed-top-custom {
+    margin-top: 70px;
+}
+
+button.navbar-toggler:focus {
+    outline: none;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgba(218, 59, 213, 0.9);
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50,205,50, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+.fa-instagram {
+    color: rgba(218, 59, 213, 0.9);
+    
+}
+
+.fa-facebook {
+    color: rgba(218, 59, 213, 0.9);
+}
+
+
+/* 1ST ROW - LOGO */
+#logo {
+    background: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/s960x960/82280403_111751227031380_8325502436361895936_o.jpg?_nc_cat=105&_nc_ohc=tTZyHgF7uoEAX97kcqW&_nc_ht=scontent-dfw5-1.xx&_nc_tp=1002&oh=e3095c1404cff4556f1c5dd516d1fe98&oe=5ED2C583");
+    /* background: url(https://images.unsplash.com/photo-1580971739182-ccd8cfef3707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80); */
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 30% 15%;
+    }
+
+/* 1ST ROW - LOGO COLOR AND POSITIONING */
+.vibrato {
+    color: rgba(218, 59, 213, 0.49);
+    font-size: 380px;
+    padding-top: 15%;
+    /* line-height: 100px; */
+    font-family: 'monoton', 'cursive';
+    }
+
+    @media (max-width: 1200px) {
+        .vibrato {
+            color: rgba(218, 59, 213, 0.49);
+            font-size: 380px;
+            padding-top: 25%;
+            /* line-height: 100px; */
+            font-family: 'monoton', 'cursive';
+            }
+    }
+
+@media (max-width: 992px) {
+    .vibrato {
+        color: rgba(218, 59, 213, 0.49);
+        font-size: 285px;
+        padding-top: 33%;
+        /* line-height: 100px; */
+        font-family: 'monoton', 'cursive';
+        }
+}
+
+@media (max-width: 768px) {
+    .vibrato {
+        color: rgba(218, 59, 213, 0.49);
+        font-size: 220px;
+        padding-top: 50%;
+        /* line-height: 100px; */
+        font-family: 'monoton', 'cursive';
+        }
+}
+
+/* 2ND ROW - ABOUT */
+#about {
+    /* background-color: #202020; */
+    color: grey;
+    /* min-height: 100vh; */
+    text-align: center;
+    /* padding-top: 5% */
+}
+
+
+#about-header {
+    font-family: 'monoton', cursive;
+    color: rgba(218, 59, 213, 0.9);
+}
+
+.about-header {
+    font-family: 'monoton', cursive;
+    color: rgba(218, 59, 213, 0.9);
+    letter-spacing: 2px;
+    /* background-color: #bff463; */
+}
+
+
+
+.about-text {
+    /* padding-left: 7%; */
+    /* padding-right: 15%; */
+    font-family: 'Courier New', Courier, monospace;
+    color: #bff463;
+}
+
+#img-about {
+    /* padding-left: 15% */
+    
+}
+
+
+/* 3RD ROW - SERVICES */
+#services {
+    background-image: url(https://www.jjosephsalon.com/wp-content/uploads/2017/04/shades-eq-1200x400.png);
+    /* background-image: url(https://images.unsplash.com/photo-1580971739182-ccd8cfef3707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 30% 15%;
+    /* background-color: #2f2b2b; */
+    
+    /* min-height: 100vh; */
+    padding-top: 10%;
+    
+}
+
+#services-header {
+    font-family: 'monoton', cursive;
+    color: #bff463;
+}
+
+.services-tags {
+    font-family: 'Montserrat', sans-serif;
+    color: #bff463
+}
+
+.services-card-header {
+    background-color: #bff463;
+    font-family: 'monoton', cursive;
+    /* color: #bff463; */
+    color: rgba(218, 59, 213, 0.9);
+}
+
+.scroll {
+    max-height: 295px;
+    overflow-y: scroll;
+}
+
+.services-card-body {
+    background-color: #343a40;
+    color: #bff463;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#book-now-button {
+    font-family: 'monoton', cursive;
+    color: #bff463;
+    word-spacing: 0.5em;
+    font-weight: 100;
+}
+    
+
+
+/* 4TH ROW - GALLERY */
+#gallery {
+    background-color: #202020;
+    /* min-height: 100vh; */
+    /* text-align: center; */
+    font-family: 'monoton', cursive;
+    color: rgba(218, 59, 213, 0.9);
+}
+
+
+@media (max-width: 768px) {
+    #gallery img {
+        width: 100%;
+        height: 55vw;
+        object-fit: cover;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    #gallery img {
+        width: 100%;
+        height: 30vw;
+        object-fit: cover;
+    }
+}
+    
+@media (min-width: 1200px) {
+    #gallery img {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+}
+
+
+
+
+/* 5TH ROW - CONTACT */
+#contact {
+    background-color: grey;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 10%
+}
+
