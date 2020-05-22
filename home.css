@@ -244,8 +244,14 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 /* 5TH ROW - CONTACT */
 #contact {
     background-color: grey;
-    min-height: 100vh;
-    text-align: center;
-    padding-top: 10%
+    min-height: 65vh;
+    /* text-align: center; */
+    /* padding-top: 10% */
+}
+#map {
+    background-color: grey;
+    min-height: 35vh;
+    /* text-align: center; */
+    /* padding-top: 10% */
 }
 
