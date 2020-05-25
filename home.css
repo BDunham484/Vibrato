@@ -243,15 +243,32 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 
 /* 5TH ROW - CONTACT */
 #contact {
-    background-color: grey;
+    background-color:#202020;
     min-height: 65vh;
     /* text-align: center; */
     /* padding-top: 10% */
 }
 #map {
-    background-color: grey;
+    background-color: #202020;
     min-height: 35vh;
     /* text-align: center; */
     /* padding-top: 10% */
 }
+
+.address {
+    color: #bff463;
+}
+.contact-info {
+    color: #bff463;
+}
+
+.contact {
+    background-color:#bff463;
+    color: rgba(218, 59, 213, 0.9);  
+}
+.hours {
+    background-color:#bff463;
+    color: rgba(218, 59, 213, 0.9);    
+}
+
 
