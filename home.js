@@ -1,3 +1,6 @@
+
+// Sets blink to small VHS logo
+
 var h1 = document.querySelector("h1");
 var isPurple = false;
 
@@ -9,6 +12,9 @@ setInterval(function() {
     }
     isPurple = !isPurple;
 }, 1000);
+
+
+// Sets blink to large VHS logo
 
 var miniLogo = document.getElementById("miniLogo");
 var isPurp = false;
@@ -22,6 +28,10 @@ setInterval(function() {
     isPurp = !isPurp;
 }, 1000);
 
+
+
+// Sets blink to first "Book Now" button
+
 var bookNow1 = document.getElementById("bookNow1");
 var isGreeny = false;
 
@@ -33,6 +43,9 @@ setInterval(function() {
     }
     isGreeny = !isGreeny;
 }, 1000);
+
+
+// Sets blink to second "Book Now" button
 
 var bookNow2 = document.getElementById("bookNow2");
 var isGreen = false;
