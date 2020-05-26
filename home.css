@@ -194,7 +194,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
     font-family: 'Montserrat', sans-serif;
 }
 
-#book-now-button {
+.bookNow {
     font-family: 'monoton', cursive;
     color: #bff463;
     word-spacing: 0.5em;
@@ -245,30 +245,33 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 #contact {
     background-color:#202020;
     min-height: 65vh;
-    /* text-align: center; */
-    /* padding-top: 10% */
+    
+    
 }
 #map {
     background-color: #202020;
     min-height: 35vh;
-    /* text-align: center; */
-    /* padding-top: 10% */
+   
 }
 
 .address {
     color: #bff463;
+    font-family: 'Montserrat', sans-serif;
 }
 .contact-info {
     color: #bff463;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact {
     background-color:#bff463;
     color: rgba(218, 59, 213, 0.9);  
+    font-family: 'monoton', 'cursive';
 }
 .hours {
     background-color:#bff463;
-    color: rgba(218, 59, 213, 0.9);    
+    color: rgba(218, 59, 213, 0.9);   
+    font-family: 'monoton', 'cursive';
 }
 
 

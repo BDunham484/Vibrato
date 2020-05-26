@@ -21,3 +21,27 @@ setInterval(function() {
     }
     isPurp = !isPurp;
 }, 1000);
+
+var bookNow1 = document.getElementById("bookNow1");
+var isGreeny = false;
+
+setInterval(function() {
+    if (isGreeny) {
+        bookNow1.style.color = "#bff463";
+    } else {
+        bookNow1.style.color = "#88b33e";
+    }
+    isGreeny = !isGreeny;
+}, 1000);
+
+var bookNow2 = document.getElementById("bookNow2");
+var isGreen = false;
+
+setInterval(function() {
+    if (isGreen) {
+        bookNow2.style.color = "#bff463";
+    } else {
+        bookNow2.style.color = "#88b33e";
+    }
+    isGreen = !isGreen;
+}, 1000);
