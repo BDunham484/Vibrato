@@ -145,10 +145,10 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
     color: #bff463;
 }
 
-#img-about {
-    /* padding-left: 15% */
+/* #img-about {
+    padding-left: 15%
     
-}
+} */
 
 
 /* 3RD ROW - SERVICES */
@@ -312,7 +312,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
     and (-webkit-device-pixel-ratio : 2) {
         #logo {
             background-image: url("./Images/main1.jpg");
-            background-attachment: initial;
+            background-attachment: fixed;
             background-size: 170% auto;
             background-position: top;
             }
