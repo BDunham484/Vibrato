@@ -68,9 +68,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 
 /* 1ST ROW - LOGO */
 #logo {
-    background-image: url("./Images/main.jpg");
-    /* background: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/s960x960/82280403_111751227031380_8325502436361895936_o.jpg?_nc_cat=105&_nc_ohc=tTZyHgF7uoEAX97kcqW&_nc_ht=scontent-dfw5-1.xx&_nc_tp=1002&oh=e3095c1404cff4556f1c5dd516d1fe98&oe=5ED2C583"); */
-    /* background: url(https://images.unsplash.com/photo-1580971739182-ccd8cfef3707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80); */
+    background-image: url("./Images/main1.jpg");
     min-height: 100vh;
     background-attachment: fixed;
     background-size: cover;
@@ -276,3 +274,46 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 }
 
 
+
+
+
+
+
+
+
+
+/* **********MEDIA QUERIES********** */
+
+/* **********DEVICES********** */
+
+/* iphone X - Portrait */
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    #logo {
+        background-image: url("./Images/main1.jpg");
+        height: 100vh;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: 30% 15%;
+        }
+
+        
+} */
+
+
+
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+        #logo {
+            background-image: url("./Images/main1.jpg");
+            background-attachment: initial;
+            background-size: 170% auto;
+            background-position: top;
+            }
+    }
